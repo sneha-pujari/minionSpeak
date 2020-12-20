@@ -5,19 +5,63 @@ body{
     font-family: 'Raleway', sans-serif;
 
 }
+/** spaces **/
+
+.margin-md {
+    margin: 2rem;
+}
 .button{
 text-align: center;
-margin: 1rem 1rem 1rem 1rem; 
+margin: 1rem 1rem 1rem -25rem; 
 padding: 1rem 1rem 1rem 1rem;
 border-radius: 15px;
 background-color: #2E75B6;
 font-family: 'Raleway', sans-serif;
-width: 10rem;
+width: 20rem;
 font-size: 1.5rem;
 color: white;
-
-
 }
+
+/** navigation **/
+
+.navigation {
+    /* background-color: #DBEAFE; */
+    color: white;
+    padding: 1rem;
+   
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .link {
+    color: white;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+
+
+
+
+/** lists **/
+
+.list-non-bullet {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
 .container {
     padding: 0rem 1rem;
 }
@@ -41,7 +85,7 @@ color: white;
 }
 
 .hero .hero-heading .heading-inverted {
-    color: var(--primary-color);
+    color: #FFC000;
 }
 
 .textarea{
@@ -66,4 +110,28 @@ color: white;
   padding: 1rem;
   width: 43rem;
   background-color: #DBEAFE;
+}
+
+.footer {
+    margin-top: 50px;
+    background-color: #FFC000 ;
+    padding: 1rem 1rem;
+    
+    text-align: center;
+    color: white;
+    border-radius: 1rem;
+    
+}
+
+.footer .link {
+    color: white
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
 }
